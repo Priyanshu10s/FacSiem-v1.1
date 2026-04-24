@@ -1,0 +1,61 @@
+{
+  "n_windows": 148,
+  "n_anomalies": 5,
+  "anomalies": [
+    {
+      "ip": "192.168.1.10",
+      "start": "2025-12-10T10:00:01+05:30",
+      "req_count": 1,
+      "unique_urls": 1,
+      "error_rate": 0.0,
+      "avg_time_gap": 9999.0,
+      "sensitive_hits": 0,
+      "sqli_hits": 0,
+      "score": -0.4053857500749201
+    },
+    {
+      "ip": "192.168.1.11",
+      "start": "2025-12-10T10:00:02+05:30",
+      "req_count": 2,
+      "unique_urls": 1,
+      "error_rate": 1.0,
+      "avg_time_gap": 1.0,
+      "sensitive_hits": 2,
+      "sqli_hits": 0,
+      "score": -0.35908913333438625
+    },
+    {
+      "ip": "192.168.1.50",
+      "start": "2025-12-10T10:00:01+05:30",
+      "req_count": 2,
+      "unique_urls": 1,
+      "error_rate": 1.0,
+      "avg_time_gap": 1.0,
+      "sensitive_hits": 2,
+      "sqli_hits": 0,
+      "score": -0.35908913333438625
+    },
+    {
+      "ip": "192.168.1.11",
+      "start": "2025-12-10T10:00:03+05:30",
+      "req_count": 1,
+      "unique_urls": 1,
+      "error_rate": 1.0,
+      "avg_time_gap": 9999.0,
+      "sensitive_hits": 1,
+      "sqli_hits": 0,
+      "score": -0.34146708260641573
+    },
+    {
+      "ip": "192.168.1.50",
+      "start": "2025-12-10T10:00:02+05:30",
+      "req_count": 1,
+      "unique_urls": 1,
+      "error_rate": 1.0,
+      "avg_time_gap": 9999.0,
+      "sensitive_hits": 1,
+      "sqli_hits": 0,
+      "score": -0.34146708260641573
+    }
+  ]
+}

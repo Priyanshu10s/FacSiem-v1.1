@@ -1,0 +1,25 @@
+
+    <html>
+    <head>
+        <title>Mini SIEM Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1 { color: #333; }
+            table { border-collapse: collapse; margin-bottom: 20px; }
+            th, td { padding: 6px 10px; }
+            th { background: #eee; }
+        </style>
+    </head>
+    <body>
+        <h1>Mini SIEM / IDS Report</h1>
+        <p><b>Log file:</b> access.log</p>
+        <p><b>Brute-force threshold:</b> 5</p>
+        <p><b>Rate threshold:</b> 50 req/2 min</p>
+
+        <h2>Brute-force Attempts</h2><p><i>No data</i></p>
+        <h2>SQL Injection Suspects</h2><p><i>No data</i></p>
+        <h2>Sensitive Path Scanners</h2><table border='1' cellpadding='6' cellspacing='0'><tr><th>ip</th><th>count</th></tr><tr><td>192.168.1.11</td><td>2</td></tr><tr><td>192.168.1.50</td><td>2</td></tr></table>
+        <h2>High Request Rate IPs</h2><table border='1' cellpadding='6' cellspacing='0'><tr><th>ip</th></tr><tr><td>192.168.1.99</td></tr></table>
+    </body>
+    </html>
+    

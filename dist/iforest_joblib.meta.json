@@ -1,0 +1,19 @@
+{
+  "n_samples": 148,
+  "feature_means": {
+    "req_count": 4.830810594313406,
+    "unique_urls": 0.6931471805599454,
+    "error_rate": 0.02702702702702703,
+    "avg_time_gap": 0.19606294241248948,
+    "sensitive_hits": 0.04054054054054054,
+    "sqli_hits": 0.0
+  },
+  "feature_std": {
+    "req_count": 0.7467953963432429,
+    "unique_urls": 1.1139928929424332e-16,
+    "error_rate": 0.16271279927185697,
+    "avg_time_gap": 1.3034825020613,
+    "sensitive_hits": 0.25762859884710687,
+    "sqli_hits": 0.0
+  }
+}

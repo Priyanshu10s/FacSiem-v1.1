@@ -1,0 +1,21 @@
+{
+  "log_path": "access.log",
+  "brute_force_threshold": 5,
+  "rate_threshold": 50,
+  "window_minutes": 2,
+  "brute_force": [],
+  "sqli": [],
+  "sensitive_paths": [
+    {
+      "ip": "192.168.1.11",
+      "count": 2
+    },
+    {
+      "ip": "192.168.1.50",
+      "count": 2
+    }
+  ],
+  "high_rate_ips": [
+    "192.168.1.99"
+  ]
+}
